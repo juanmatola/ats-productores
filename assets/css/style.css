@@ -21,7 +21,7 @@ body{
 
 h2{
     color: var(--primary--color);
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     text-align: center;
     font-weight: 800;
 }
@@ -52,4 +52,11 @@ h2{
 }
 .rounded-img{
     border-radius: 40px;
+}
+.info__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
 }
