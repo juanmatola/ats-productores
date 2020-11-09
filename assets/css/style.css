@@ -18,6 +18,13 @@ body{
     --primary--color: #3796ad;
     --secondary--color: #fff;
 }
+a, a:active, a:focus, a:hover{
+    text-decoration: none;
+    color: unset;
+}
+svg {
+    width: 40px;
+}
 
 h2{
     color: var(--primary--color);
