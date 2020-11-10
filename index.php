@@ -98,10 +98,10 @@
     </section>
 
     <!-- Contacto -->
-    <section class="container pb-5">
+    <section class="container pb-5" id="contacto">
         <div class="divider"></div>
         <h2 class="pb-4">Consultanos</h2>
-        <form class="px-md-5" action="/" method="POST">
+        <form class="px-md-5" action="/contacto.php" method="POST">
             <div class="form-row">
             <div class="form-group col-md-6">
                 <input type="text" class="form-control" id="inputEmail4" name="name" placeholder="Nombre">
@@ -116,6 +116,15 @@
             <div class="form-group">
                 <textarea name="" id="inputAddress2"class="form-control" name="message" placeholder="Mensaje a enviar.."></textarea>
             </div>
+            <?php if (isset($_GET['status']) && $_GET['status'] === 'sent') {?>
+                <div class="form-group bg-success py-3">
+                    <p class="m-0 text-light text-center">Gracias por contactarnos, nos comunicaremos lo antes posible!</p>
+                </div>
+            <?php } elseif (isset($_GET['status']) && $_GET['status'] === 'fail') { ?>
+                <div class="form-group bg-danger py-3">
+                    <p class="m-0 text-light text-center">Ups.. algo salió mal, asegurate de completar todos los campos!</p>
+                </div>
+            <?php } ?>
             <div class="text-md-right text-center">
                 <div class="g-recaptcha float-md-left float-none d-inline-block" data-sitekey="6LdccuEZAAAAADzOHLAE5s3sj3loMUV84wqlnKv5"></div>
                 <button type="submit" class="btn btn-primary mt-3">Enviar</button>
