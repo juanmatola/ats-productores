@@ -78,7 +78,7 @@ h2{
 
 /* main section */
 .main{
-    background-image: linear-gradient(#ffffff85, #ffffffef), url('/assets/img/bg.png');
+    background-image: linear-gradient(#ffffff85, #ffffffef), url('../img/bg.png');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
