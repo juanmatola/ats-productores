@@ -41,7 +41,7 @@
                 <div class="col-12 col-md-6 text-center info__container" data-aos="zoom-in">
                     <h2 class="pb-4">Asegurá tu auto</h2>
                     <p class="text-justify pb-4 px-md-5">
-                        Sabemos lo importante que es para vos, aseguramos tu auto para que conduzcas tranquilo...
+                        Sabemos lo importante que es para vos, aseguramos tu auto para que conduzcas sin preocupaciones.
                     </p>
                     <a class="btn btn-primary" href="https://www.sancristobal.com.ar/pas/ats-seguros-rosario/cotizar" role="button">Cotizar</a>
                 </div>
@@ -73,7 +73,7 @@
                 <div class="col-12 col-md-6 text-center info__container" data-aos="zoom-in">
                     <h2 class="pb-4">Accidentes Personales</h2>
                     <p class="text-justify pb-4 px-md-5">
-                        Contratá un seguro de Accidentes Personales con 30% off
+                        Contratá un seguro de Accidentes Personales con 30% de descuento de forma online.
                     </p>
                     <a class="btn btn-primary" href="https://www.sancristobal.com.ar/pas/ats-seguros-rosario/seguro-accidentes-personales/cotizar" role="button">Cotizar</a>
                 </div>
