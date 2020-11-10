@@ -25,7 +25,7 @@ a, a:active, a:focus, a:hover{
 }
 .arrow {
     width: 40px;
-    animation: 1s infinite upAndDown;
+    animation: 1.8s infinite upAndDown;
 }
 
 h2{
@@ -37,10 +37,12 @@ h2{
 .btn-primary{
     background-color: var(--primary--color) !important;
     transition: .5s all;
+    border-color: var(--primary--color) !important;
 }
 .btn-primary:hover{
     background-color: var(--secondary--color) !important;
     color: var(--primary--color);
+    border-radius: 50px;
 }
 .divider{
     height: 20vh;
@@ -79,10 +81,7 @@ h2{
 }
 
 @keyframes upAndDown {
-    from {
-        margin-top: -5px;
-    }
-    to{
-        margin-top: 5px;
-    }
+    0% {margin-top: -5px;}
+    50%{margin-top: 5px ;}
+    100%{margin-top: -5px;}
 }
