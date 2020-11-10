@@ -5,9 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Juan Manuel Tola | juanmatola.github.io">
     <meta name="description" content="Somos un grupo dedicado a brindar asistencia y asesoramiento profesional en seguros generales en Rosario, cotizador online de seguros">
-    
-    <title>ATS Productores Asesores de Seguros</title>
-    
+    <title>ATS Productores Asesores de Seguros | Cotizador de Seguros Online</title>
+    <!--Open Graph Metas-->
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="ATS | Productores Asesores de Seguros"/>
+    <meta property="og:description" content="Somos un grupo dedicado a brindar asistencia y asesoramiento profesional en seguros generales, cotiza seguros online| Rosario, Santa Fe, Argentina"/>
+    <meta property="og:image" content="https://ats.com.ar/assets/img/ogimage.jpg"/>
+    <meta property="og:site_name" content="ATS Productores de Seguros"/>
+    <meta property="og:url" content="https://ats.com.ar"/>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <!-- AOS CSS -->
