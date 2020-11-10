@@ -10,7 +10,10 @@
     
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+    
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
@@ -32,7 +35,7 @@
             <div class="divider"><h2 class="mt-2"><a href="#auto"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg></a></h2></div>
             <div class="row">
                 <div class="col-12 col-md-6">
-                    <img src="./assets/img/auto.jpg" class="img-fluid rounded-img" alt="Seguros de auto Rosario">
+                    <img src="./assets/img/auto.jpg" class="img-fluid rounded-img" alt="Seguros de auto Rosario" data-aos="fade-right">
                 </div>
                 <div class="col-12 col-md-6 text-center info__container">
                     <h2 class="pb-4">Asegurá tu auto</h2>
@@ -56,7 +59,7 @@
                 <a class="btn btn-primary" href="https://www.sancristobal.com.ar/pas/ats-seguros-rosario/seguro-hogar" role="button">Cotizar</a>
             </div>
             <div class="col-12 col-md-6">
-                <img src="./assets/img/hogar.jpg" class="img-fluid rounded-img" alt="Seguros de Hogar Rosario">
+                <img src="./assets/img/hogar.jpg" class="img-fluid rounded-img" alt="Seguros de Hogar Rosario" data-aos="fade-left">
             </div>
         </div>
     </section>
@@ -65,7 +68,7 @@
         <div class="divider"></div>
         <div class="row">
             <div class="col-12 col-md-6">
-                <img src="./assets/img/ap.jpg" class="img-fluid rounded-img" alt="Seguros de Accidentes Personales Rosario">
+                <img src="./assets/img/ap.jpg" class="img-fluid rounded-img" alt="Seguros de Accidentes Personales Rosario" data-aos="fade-right">
             </div>
             <div class="col-12 col-md-6 text-center info__container">
                 <h2 class="pb-4">Accidentes Personales</h2>
@@ -94,6 +97,11 @@
     <footer>
 
     </footer>
-    
+  
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
