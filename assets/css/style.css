@@ -13,6 +13,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
 }
 :root {
     --primary--color: #3796ad;
@@ -22,8 +23,9 @@ a, a:active, a:focus, a:hover{
     text-decoration: none;
     color: unset;
 }
-svg {
+.arrow {
     width: 40px;
+    animation: 1s infinite upAndDown;
 }
 
 h2{
@@ -74,4 +76,13 @@ h2{
     justify-content: center;
     align-items: center;
     min-height: 300px;
+}
+
+@keyframes upAndDown {
+    from {
+        margin-top: -5px;
+    }
+    to{
+        margin-top: 5px;
+    }
 }
