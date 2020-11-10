@@ -104,17 +104,17 @@
         <form class="px-md-5" action="/contacto.php" method="POST">
             <div class="form-row">
             <div class="form-group col-md-6">
-                <input type="text" class="form-control" id="inputEmail4" name="name" placeholder="Nombre">
+                <input type="text" class="form-control" id="inputEmail4" name="name" placeholder="Nombre" required>
             </div>
             <div class="form-group col-md-6">
-                <input type="text" class="form-control" id="inputPassword4" name="phone" placeholder="Teléfono">
+                <input type="text" class="form-control" id="inputPassword4" name="phone" placeholder="Teléfono" required>
             </div>
             </div>
             <div class="form-group">
-            <input type="email" class="form-control" id="inputAddress" name="email" placeholder="E-mail">
+            <input type="email" class="form-control" id="inputAddress" name="email" placeholder="E-mail" required>
             </div>
             <div class="form-group">
-                <textarea name="" id="inputAddress2"class="form-control" name="message" placeholder="Mensaje a enviar.."></textarea>
+                <textarea id="inputAddress2"class="form-control" name="message" placeholder="Mensaje a enviar.." required></textarea>
             </div>
             <?php if (isset($_GET['status']) && $_GET['status'] === 'sent') {?>
                 <div class="form-group bg-success py-3">
