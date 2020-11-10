@@ -1,4 +1,6 @@
 init.txt
+contacto.php
 *.png
 *.jpg
 *.jpeg
+/lib
