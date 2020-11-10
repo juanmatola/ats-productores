@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Juan Manuel Tola | juanmatola.github.io">
-    <meta name="description" content="Somos un grupo dedicado a brindar asistencia y asesoramiento profesional en seguros generales en Rosario">
+    <meta name="description" content="Somos un grupo dedicado a brindar asistencia y asesoramiento profesional en seguros generales en Rosario, cotizador online de seguros">
     
     <title>ATS Productores Asesores de Seguros</title>
     
@@ -43,6 +43,7 @@
                     <p class="text-justify pb-4 px-md-5">
                         Sabemos lo importante que es para vos, aseguramos tu auto para que conduzcas sin preocupaciones.
                     </p>
+                    <p class="d-none">Cotizar seguros online, cotizador de seguros de auto</p>
                     <a class="btn btn-primary" href="https://www.sancristobal.com.ar/pas/ats-seguros-rosario/cotizar" role="button">Cotizar</a>
                 </div>
             </div>
@@ -56,6 +57,7 @@
                     <p class="text-justify pb-4 px-md-5">
                         Protegé tu casa y disfrutá cada momento con la tranquilidad de saber que cuidás de tu hogar, a la familia y tus pertenencias.
                     </p>
+                    <p class="d-none">Cotiza seguros online, cotizador seguro de hogar</p>
                     <a class="btn btn-primary" href="https://www.sancristobal.com.ar/pas/ats-seguros-rosario/seguro-hogar" role="button">Cotizar</a>
                 </div>
                 <div class="col-12 col-md-6 order-first order-md-last">
@@ -75,6 +77,8 @@
                     <p class="text-justify pb-4 px-md-5">
                         Contratá un seguro de Accidentes Personales con 30% de descuento de forma online.
                     </p>
+                    <p class="d-none">Cotiza seguros accidentes personales online, cotizador accidentes personales</p>
+                    <p class="d-none">Cotiza seguros ART online, cotizador accidentes personales</p>
                     <a class="btn btn-primary" href="https://www.sancristobal.com.ar/pas/ats-seguros-rosario/seguro-accidentes-personales/cotizar" role="button">Cotizar</a>
                 </div>
             </div>
