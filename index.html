@@ -13,7 +13,7 @@
     <!-- AOS CSS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Fontawesome Kit -->
-    <script src="https://kit.fontawesome.com/4657d46491.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4657d46491.js" crossorigin="anonymous" async></script>
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
@@ -101,23 +101,24 @@
     <section class="container pb-5">
         <div class="divider"></div>
         <h2 class="pb-4">Consultanos</h2>
-        <form class="px-md-5">
+        <form class="px-md-5" action="/" method="POST">
             <div class="form-row">
             <div class="form-group col-md-6">
-                <input type="email" class="form-control" id="inputEmail4" placeholder="Nombre">
+                <input type="text" class="form-control" id="inputEmail4" name="name" placeholder="Nombre">
             </div>
             <div class="form-group col-md-6">
-                <input type="password" class="form-control" id="inputPassword4" placeholder="Teléfono">
+                <input type="text" class="form-control" id="inputPassword4" name="phone" placeholder="Teléfono">
             </div>
             </div>
             <div class="form-group">
-            <input type="email" class="form-control" id="inputAddress" placeholder="E-mail">
+            <input type="email" class="form-control" id="inputAddress" name="email" placeholder="E-mail">
             </div>
             <div class="form-group">
-                <textarea name="" id="inputAddress2"class="form-control" placeholder="Mensaje a enviar.."></textarea>
+                <textarea name="" id="inputAddress2"class="form-control" name="message" placeholder="Mensaje a enviar.."></textarea>
             </div>
-            <div class="text-right">
-                <button type="submit" class="btn btn-primary">Enviar</button>
+            <div class="text-md-right text-center">
+                <div class="g-recaptcha float-md-left float-none d-inline-block" data-sitekey="6LdccuEZAAAAADzOHLAE5s3sj3loMUV84wqlnKv5"></div>
+                <button type="submit" class="btn btn-primary mt-3">Enviar</button>
             </div>
         </form>
     </section>
@@ -161,5 +162,7 @@
     <script>
         AOS.init();
     </script>
+    <!-- Captcha JS -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </body>
 </html>
