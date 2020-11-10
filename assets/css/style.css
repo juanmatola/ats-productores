@@ -58,7 +58,7 @@ h2{
 /* header */
 .header{
     height: 85vh;
-    background-image: linear-gradient(#01010169, #010101a1), url('../img/header-bg.jpg');
+    background-image: linear-gradient(#01010169, #010101a1), url('../img/header-bg_2com.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
