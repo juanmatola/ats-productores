@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Juan Manuel Tola | juanmatola.github.io">
+    <meta name="author" content="Juan Manuel Tola | juanmatola.github.io">
     <meta name="description" content="Somos un grupo dedicado a brindar asistencia y asesoramiento profesional en seguros generales en Rosario, cotizador online de seguros">
     <title>ATS Productores Asesores de Seguros | Cotizador de Seguros Online</title>
     <!--Open Graph Metas-->
